@@ -273,11 +273,12 @@ FILTER(
 
 ## Visualization
 
-The report is divided into three pages as shown in the attached **"Power BI Dashboard Screenshots"** file
-The following features were used in the Visualizations
+The report is divided into three pages as shown in the attached **"Power BI Dashboard Screenshots"** file.
+A screenrecodring has been attached for better appreciation of the features of the dashboard.
+The following features were used in the visualizations
 - Controlled Interactions
 - Hierarchials drilling of data up and down 
-- Calculated y-axis for the bar and column charts
+- Calculated y-axis range for the bar and column charts
 - Custom maps
 - Custom tooltips
 - Page Navigation buttons
