@@ -17,23 +17,23 @@ Ultimatey, the outcomes of the analysis are to be visualized on an interactive *
 
 ## Data Sources
 
- 1. Constituency Wise Details and Voter Turnout details of 2019 Elections from Election Commission of India website.
+Constituency Wise Details and Voter Turnout details of 2019 Elections from Election Commission of India website.
 * https://eci.gov.in/files/file/13539-33-constituency-wise-detailed-result/
 * https://eci.gov.in/files/file/13579-13-pc-wise-voters-turn-out/
 
-2. Map files for Power BI dashboard are taken from
+Map files for Power BI dashboard are taken from
 - https://github.com/datameet/maps/tree/master/parliamentary-constituencies
 
 ## Creating Mapfiles for Power BI
 
-The map files from the source contained the map of India divisioned into its electoral constituencies and following operations on ii:
-- The shape files were loaded onto the **QGIS software** and the names of the constituencies are changed to remove duplicates and to match it with the names from the ECI website.
+The map files from the source, contained the map of India divisioned into its electoral constituencies and following operations were carried out. 
+- The shape files were loaded onto the **QGIS software** and the names of the constituencies were changed to remove duplicates and to match it with the names from the ECI website.
 - The updated shape file has been saved from QSIS software, which created the following filetypes **.shp, .shx, .dbf, .prj, .qmd, .cpg**.
-- The above files are imported into **https://mapshaper.org/** and reshaped the map to reduce the file size. The reduced map has been exported as TopoJSON file which can be used in Power BI readily.
+- The above files are imported into **https://mapshaper.org/** and reshaped the map to reduce the file size. The reduced map has been exported as **TopoJSON** file which can be used in Power BI readily.
   
 ## Data Cleaning & Transformation in Excel
 
-The follwoing operations are carried out on the excel files downloaded from the Election Commission of India website.
+The following operations were carried out on the excel files downloaded from the Election Commission of India website.
 - Removed unnecessary header rows.
 - Formatted the data as a table.
 - Carried out a **vlookup** to verify whether names of the constituencies matches the names in database file (.dbf) of the updated map created from the QGIS.
@@ -42,7 +42,7 @@ The follwoing operations are carried out on the excel files downloaded from the 
 ## Importing Excel data into Power BI
 
 The following excel files were imported into Power BI thorugh the data source option.
-1. List of Constituencies excel workbook created from the database file (.dbf) of the map.
+1. List of Constituencies created from the database file (.dbf) of the map.
 2. Constituency Wise details data.
 3. Gender wise Voter Turnout data.
    
@@ -51,7 +51,7 @@ The following excel files were imported into Power BI thorugh the data source op
 The below transformation operations were carried out
 - The files are validaeted using the **Data Preview tools** in View ribbon.
 - **Removed empty columns** from the tables.
-- Created a copy of constituency wise details table and **aggregated the data based on the highest votes recieved** to create a table with only the details of winning cndidated of every constituency as **constituency wise shares**
+- Created a copy of constituency wise details table and **aggregated the data based on the highest votes recieved** to create a table with only the details of winning candidates of every constituency as **constituency wise shares**
 
 ## Data Modelling
 
@@ -273,8 +273,8 @@ FILTER(
 
 ## Visualization
 
-The report is divided into three pages as shown in the attached **"Power BI Dashboard Screenshots"** file.
-A screenrecodring has been attached for better appreciation of the features of the dashboard.
+The report was divided into three pages as shown in the attached **"Power BI Dashboard Screenshots"** file. In addition to this, a screenrecodring has been attached for better appreciation of the features of the dashboard.
+
 The following features were used in the visualizations
 - Controlled Interactions
 - Hierarchials drilling of data up and down 
