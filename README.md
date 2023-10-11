@@ -3,7 +3,7 @@
 
 The analysis aims to address some of the **contentious questions** regarding the electoral process and its outcomes as mentioned in the forthcoming section. It seeks to shed light on these issues by relying on data from the latest parliamentary general elections held in 2019. 
 
-Ultimatey, the outcomes of the analysis are to be visualized on an interactive **Power BI dashboard** integrated with a map of constituencies and prepare a detailed final **Project report** which includes reasons and hihlights.
+Ultimatey, the outcomes of the analysis are to be visualized on an interactive **Power BI dashboard** integrated with a map of constituencies and prepare a detailed final **Analysis report** which includes reasons and highlights.
 
 ## Questions for Analysis
 
